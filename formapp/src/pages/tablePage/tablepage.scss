@@ -1,0 +1,37 @@
+.tablepage {
+	margin-top: 150px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	&__container {
+		width: 1030px;
+		border: 1px solid #000;
+		padding: 12px 24px;
+	}
+
+	&__title {
+		font-size: 32px;
+		text-align: center;
+		padding-top: 20px;
+		padding-bottom: 20px;
+	}
+
+	&__table {
+		width: 100%;
+		border-collapse: collapse;
+		margin-bottom: 20px;
+
+		th,
+		td {
+			border: 1px solid #000;
+			padding: 8px;
+			text-align: left;
+		}
+		th {
+			background-color: #f2f2f2;
+			font-weight: bold;
+			text-align: center;
+		}
+	}
+}

@@ -1,0 +1,74 @@
+.form-page {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	&__container {
+		display: flex;
+		flex-direction: column;
+		margin-top: 150px;
+	}
+
+	&__title {
+		font-size: 32px;
+		text-align: center;
+		padding-top: 20px;
+		padding-bottom: 20px;
+	}
+
+	&__form {
+		border: 1px solid #ccc;
+		padding: 12px 24px;
+		border-radius: 12px;
+		display: flex;
+		flex-direction: column;
+	}
+
+	&__row {
+		margin-top: 15px;
+		display: flex;
+		flex-direction: column;
+	}
+	&__label {
+		font-size: 18px;
+		padding-bottom: 5px;
+	}
+
+	&__input {
+		width: 365px;
+		height: 30px;
+	}
+
+	&__textarea {
+		resize: none;
+		width: 365px;
+		height: 120px;
+	}
+
+	&__button {
+		flex: 0 0 auto;
+		margin-top: 20px;
+		margin-bottom: 12px;
+		margin-left: 25%;
+		padding: 18px 26px;
+		border: 1px solid #000;
+		background-color: #d1c7c7;
+		width: 180px;
+	}
+	
+	&__entrance{
+		flex: 0 0 auto;
+		text-align: center;
+		margin-left: 25%;
+		padding: 18px 26px;
+		border: 1px solid #000;
+		background-color: #d1c7c7;
+		width: 180px;
+		margin-top: 15px;
+		margin-bottom: 15px;
+	}
+	
+	&__link{
+		font-size: 12px;
+	}
+}
